@@ -28,10 +28,9 @@ def canvas(with_attribution=True):
         quote += "\n\t- Adapted from Henry David Thoreau"
     return quote
 
-def zen(with_attribution=True):
-    quote = """The Zen of Python, by Tim Peters
 
-Beautiful is better than ugly.
+def zen(with_attribution=True):
+    quote = """Beautiful is better than ugly.
 Explicit is better than implicit.
 Simple is better than complex.
 Complex is better than complicated.
@@ -51,12 +50,10 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
    """
-   if with_attribution:
-       quote += "\n\t-  Tim Peters"
-   return quote
 
-
-
+    if with_attribution:
+        quote += "\n\t- Tim Peters"
+    return quote
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
