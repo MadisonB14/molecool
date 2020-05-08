@@ -14,6 +14,10 @@ download repository and type
 
 in the repository directory.
 
+This package requires the following:
+- NumPy
+- MatPlotLib
+
 ### Copyright
 
 Copyright (c) 2020, Madison B. Berger
