@@ -99,4 +99,12 @@ ENV/
 /site
 
 # mypy
+
+#Emacs
+*~
+
+# temporary data files
+*.in
+*.out
+C
 .mypy_cache/
